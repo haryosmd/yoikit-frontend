@@ -1,9 +1,15 @@
 <script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
+import { RouterLink } from 'vue-router'
+import Hero from '../components/home/Hero.vue';
+import Categories from '../components/home/Categories.vue';
+import NewItems from '../components/home/NewItems.vue';
+
 </script>
 
 <template>
   <main>
-    <h1>TEST</h1>
+    <Hero/>
+    <Categories/>
+    <NewItems/>
   </main>
 </template>
